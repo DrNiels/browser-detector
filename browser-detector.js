@@ -34,7 +34,7 @@ class BrowserDetector extends PolymerElement {
           var isFirefox = typeof InstallTrigger !== 'undefined';
 
           // Safari 3.0+ "[object HTMLElementConstructor]"
-          var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
+          var isSafari = (/constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification)) && !window.StyleMedia;
 
           // Safari for iOS
           var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
