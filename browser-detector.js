@@ -46,7 +46,7 @@ class BrowserDetector extends PolymerElement {
           var isEdge = !isIE && !!window.StyleMedia;
 
           // Chrome 1+
-          var isChrome = !!window.chrome && !!window.chrome.webstore;
+          var isChrome = !!window.chrome && !isEdge;
 
           // Blink engine detection
           var isBlink = (isChrome || isOpera) && !!window.CSS;
