@@ -1,3 +1,5 @@
+This is a conversion of the browser-detector element from gauravkk22 (https://github.com/gauravkk22/browser-detector) with some minor adjustments. The readme was not updated and is still the one from the original browser-detector element! The original browser-detector was updated to Polymer 3 nowadays and is probably a better choice than this one.
+
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 # \<browser-detector\>
 
