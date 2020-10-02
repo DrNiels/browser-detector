@@ -1,7 +1,7 @@
 {
   "description": "a component to detect the browser user is using",
   "name": "dr-niels-browser-detector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
